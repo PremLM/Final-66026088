@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghibli Films</title>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .film-table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    .film-table th, .film-table td {
+        border: 1px solid black;
+    }
+    .film-table th {
+        background-color: salmon;
+        font-weight: bold;
+    }
+    td img{
+        max-width: 200px;
+        height: 100%;
+    }
+</style>
+</head>
+<body>
+ 
+<div class="container">
+    <table class="film-table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Release Date</th>
+            </tr>
+        </thead>
+        <tbody id="films"></tbody>
+    </table>
+</div>
+ 
+<script src="JavaScript.js"></script>
+ 
+</body>
+</html>
+ 
